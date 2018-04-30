@@ -1,18 +1,40 @@
-#header {
-  font-family: Verdana;
+header {
+  font-family: Verdana, sans-serif;
   font-size: 14px;
   font-weight: bold;
   display: flex;
+  border-bottom: 2 solid black;
 }
 
 .nav {
-  display: inline-block;
+  display: flex;
+  padding-right: 40px;
 }
 
 .logo {
   color: MediumAquamarine;
-  font-size: 14px;
-  font-weight: bold;
-  font-family: Verdana;
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding: 30px;
+}
+
+.content{
+  display: flex;
+  border: 2 solid black;
+}
+
+.column_large{
+  width: 630px;
+  border: 2 solid black;
+}
+
+.column_medium{
+  width: 300px;
+  border: 2 solid black;
+}
+
+.column_small{
+  width: 240px;
+  border: 2 solid black;
 }
