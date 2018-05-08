@@ -68,14 +68,55 @@ header nav {
 
 /* Main Content Container */
 
+.content {
+  display: flex;
+  margin: 0 auto 78px auto;
+  width: 1232px;
+  padding-top: 116px;
+}
 
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
 
+.narrative {
+  border: 2px solid black;
+}
 
+.column.medium {
+  width: 300px;
+  display: flex;
+  border: 1px solid black;
+}
+
+.column.small{
+  width:240px;
+  display: flex;
+  border: 1px solid black;
+}
 
 
 /* First News Column */
 
+.column.large{
+  width: 630px;
+  display: flex;
+  border: 1px solid black;
+}
 
+.lead-story {
+  border: 3px solid black;
+}
+
+.stories {
+  border: 3px solid black;
+}
+
+.story {
+  border: 3px solid black;
+}
 
 
 
