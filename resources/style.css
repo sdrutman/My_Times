@@ -157,11 +157,20 @@ img.cookie{
 }
 
 .news-bites h3 {
-
+  font-size: 16px;
+  margin-bottom: 41px;
+  font-weight: bold;
+  text-align: center;
 }
 
 .news-bites .bite {
   display: block;
+  padding: 11px 20px;
+  font-size: 12px;
+  font-family: Verdana;
+  color: dimgray;
+  background-color: whitesmoke;
+  border-bottom: 1px solid black
 }
 
 /* Footer */
